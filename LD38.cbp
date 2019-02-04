@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="LD38" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/LD38g" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="/code" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="sfml-graphics-d" />
+					<Add library="sfml-window-d" />
+					<Add library="sfml-system-d" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/LD38" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="/code" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="sfml-graphics" />
+					<Add library="sfml-window" />
+					<Add library="sfml-system" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="D:/cpp/lib/SFML-2.4.2/include" />
+		</Compiler>
+		<Linker>
+			<Add library="mingw32" />
+			<Add library="user32" />
+			<Add library="gdi32" />
+			<Add library="winmm" />
+			<Add library="dxguid" />
+			<Add directory="D:/cpp/lib/SFML-2.4.2/lib" />
+		</Linker>
+		<Unit filename="code/engine/engine.cpp" />
+		<Unit filename="code/engine/engine.h" />
+		<Unit filename="code/engine/engineVariables.cpp" />
+		<Unit filename="code/engine/engineVariables.h" />
+		<Unit filename="code/engine/layer.cpp" />
+		<Unit filename="code/engine/layer.h" />
+		<Unit filename="code/engine/sObject.h" />
+		<Unit filename="code/engine/scene.h" />
+		<Unit filename="code/game/building/blockOfFlats.h" />
+		<Unit filename="code/game/building/building.cpp" />
+		<Unit filename="code/game/building/building.h" />
+		<Unit filename="code/game/gameScene.cpp" />
+		<Unit filename="code/game/gameScene.h" />
+		<Unit filename="code/game/gameplay/buildingContainer.cpp" />
+		<Unit filename="code/game/gameplay/buildingContainer.h" />
+		<Unit filename="code/game/gameplay/earth.cpp" />
+		<Unit filename="code/game/gameplay/earth.h" />
+		<Unit filename="code/game/gameplay/gameplayLayer.cpp" />
+		<Unit filename="code/game/gameplay/gameplayLayer.h" />
+		<Unit filename="code/game/gui/buildingIcon.cpp" />
+		<Unit filename="code/game/gui/buildingIcon.h" />
+		<Unit filename="code/game/gui/guiLeftLayer.cpp" />
+		<Unit filename="code/game/gui/guiLeftLayer.h" />
+		<Unit filename="code/game/gui/guiRightLayer.cpp" />
+		<Unit filename="code/game/gui/guiRightLayer.h" />
+		<Unit filename="code/game/gui/iconInfo.cpp" />
+		<Unit filename="code/game/gui/iconInfo.h" />
+		<Unit filename="code/game/gui/informationLabel.cpp" />
+		<Unit filename="code/game/gui/informationLabel.h" />
+		<Unit filename="code/game/logic.cpp" />
+		<Unit filename="code/game/logic.h" />
+		<Unit filename="code/main.cpp" />
+		<Unit filename="code/menu/gameoverScene.cpp" />
+		<Unit filename="code/menu/gameoverScene.h" />
+		<Unit filename="code/menu/howtoplayScene.cpp" />
+		<Unit filename="code/menu/howtoplayScene.h" />
+		<Unit filename="code/menu/menuScene.cpp" />
+		<Unit filename="code/menu/menuScene.h" />
+		<Unit filename="code/resurce/textureMenager.cpp" />
+		<Unit filename="code/resurce/textureMenager.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
